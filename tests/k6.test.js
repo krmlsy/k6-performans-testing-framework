@@ -33,7 +33,7 @@ export default function() {
 		// The status code should be 200
 		'status is 200': (r) => r.status === 200,
         // The response time should be less than 400ms
-        'response time < 200ms': (r) => r.timings.duration < 400
+        'response time < 400ms': (r) => r.timings.duration < 400
 	});
 
 	// If the response status code is not 200, print the response JSON to the console
