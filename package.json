@@ -1,0 +1,15 @@
+{
+    "name": "k6",
+    "version": "1.0.0",
+    "description": "This is a generic K6 performance testing  framework",
+    "main": "index.js",
+    "directories": {
+      "test": "tests"
+    },
+    "scripts": {
+      "test": "k6 run"
+    },
+    "dependencies": {
+      "k6": "^0.0.0"
+    }
+  }
