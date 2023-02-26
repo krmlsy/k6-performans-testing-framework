@@ -1,11 +1,8 @@
 import http from 'k6/http';
 import { check } from 'k6';
-
 import { userData } from '../data/faker.js';
 import { options as config} from '../config/k6.options.js';
-
 export { handleSummary } from './base/base.test.js';
-
 export const options = config
 
 
